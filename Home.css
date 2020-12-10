@@ -1,0 +1,24 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    font-family: cursive;
+}
+nav {
+    background-color: blueviolet;
+    color: white;
+
+}
+li {
+    display: inline;
+}
+ul {
+    list-style: none;
+}
+img {
+    max-width: 80px;
+    max-height: 80px;
+    padding-right: 20px;
+}
