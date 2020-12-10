@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+}
+
+.square {
+    width: 1300px;
+    height: 700px;
+    background-color: purple;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: gold;
+    position: absolute;
+    padding-left: 800px;
+}
