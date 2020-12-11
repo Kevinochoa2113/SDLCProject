@@ -1,0 +1,59 @@
+html {
+    background-color: black;
+}
+
+
+/*Nav*/
+
+nav {
+    background-color: #210F7D;
+    color: white;
+    display: flex;
+    font-size: 1.45rem;
+}
+
+li {
+    display: inline;
+}
+
+li.Title {
+    font-size: 2.4rem;
+    color: #E3BB2A;
+    padding-right: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 110px;
+    max-height: 110px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 80px;
+}
+
+a:hover {
+    color: #E3BB2A;
+    text-decoration: none;
+}
+
+
+/*Section */
+
+section li {
+    color: white;
+    position: absolute;
+}
+
+
+/* Main Content */
+
+h1 {
+    text-align: center;
+    color: white;
+}
