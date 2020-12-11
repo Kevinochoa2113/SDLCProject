@@ -4,11 +4,12 @@ html {
 }
 body {
     background-color: black;
-    font-family: cursive;
 }
 nav {
-    background-color: blueviolet;
+    background-color: #210F7D;
     color: white;
+    display: flex;
+    font-size: 1.45rem;
 
 }
 li {
@@ -18,7 +19,79 @@ ul {
     list-style: none;
 }
 img {
-    max-width: 80px;
-    max-height: 80px;
+    max-width: 110px;
+    max-height: 110px;
+    padding-right: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 90px;
+}
+a:hover {
+    color: #E3BB2A;
+    text-decoration: none;
+}
+.mySlide {
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
+
+li.title {
+    color: #E3BB2A;
+    font-size: 2.4rem;
     padding-right: 20px;
+}
+
+footer{
+    margin-top: 195px;
+    background-color: #210F7D;
+    color: white;
+    border: 4px solid #E3BB2A;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 265px;
+}
+
+footer h4 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.head {
+    font-weight: bold;
+}
+
+.review1 {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 200px;
+    height: 180px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.checked {
+    color: #E3BB2A;
+    font-size: 2.00rem;
+}
+
+.noChecked {
+    font-size: 2.00rem;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    margin-bottom: 15px;
 }
