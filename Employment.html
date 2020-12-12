@@ -30,14 +30,53 @@
     </header>
 
     <main>
-        <h1>Contact Us</h1>
-        <h4>For Further Inquires and Services</h4>
+        <h1>Employment</h1>
+        <h4>Work for the prestigious C.R.O.W.N.</h4>
         <div class="content">
-            <p><strong>C.R.O.W.N. Company Number:</strong><em> 602-888-1090</em>
-                <br>
-                <br>
-                <strong>Company Email:</strong><a class="email" href="https://mail.google.com/mail/u/0/">
-                    Crownoperationsinc@gmail.com</a></p>
+            <form>
+
+                <fieldset>
+                    <label for="firstName">Full name:</label>
+                    <input class="name" type="text" name="name" id="firstName" placeholder="FULL NAME">
+                </fieldset>
+
+                <fieldset>
+                    <label for="textarea">Bio:</label><br>
+                    <textarea class="bio" name="textarea" id="textarea" placeholder="Tell us about you security experiences, training qualities, unqiue abilities....""></textarea>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Gender</legend>
+                    <input type="checkbox" id="check1" name="checkboxes" checked>
+                    <label for="check1">Female</label><br>
+                    <input type="checkbox" id="check2" name="checkboxes">
+                    <label for="check2">Male</label><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Age</legend>
+                    <input type="radio" id="radio1" name="radios" checked>
+                    <label for="radio1">18-20</label><br>
+                    <input type="radio" id="radio2" name="radios">
+                    <label for="radio2">21+</label><br>
+                    <input type="radio" id="radio3" name="radios">
+                    <label for="radio3">35+</label>
+                </fieldset>
+
+                <fieldset>
+                    <label for="select-choice">Years of Security Training?</label>
+                    <select name="select-choice" id="select-choice">
+                        <option value="Choice 1">- - select one - -</option>
+                        <option value="Choice 2">1-2 Years</option>
+                        <option value="Choice 3">3-5 Years</option>
+                        <option value="Choice 4">5-8 Years</option>
+                        <option value="Choice 5">9+ Years</option>
+                    </select>
+                </fieldset>
+                <div id="buttons">
+                    <a href="Thank.html" class="btn green">Submit</a>
+                </div>
+            </form>
         </div>
     </main>
 </body>
