@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C.R.O.W.N.</title>
+    <link rel="stylesheet" href="Employment.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="logo.png">
+            <ul>
+                <li class="Title">C.R.O.W.N.</li>
+                <li><a class="nav" href="#">Home</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Contact</a>
+                    <div class="dropdown-content">
+                        <a class="drptxt" href="Contact.html">Contact</a>
+                        <a class="drptxt" href="Employment.html">Employment</a>
+                    </div>
+                </li>
+                <li><a class="nav" href="#">About Us</a></li>
+                <li><a class="nav" href="#">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Employment</h1>
+        <h4>Work for the prestigious C.R.O.W.N.</h4>
+        <div class="content">
+            <form>
+
+                <fieldset>
+                    <label for="firstName">Full name:</label>
+                    <input class="name" type="text" name="name" id="firstName" placeholder="FULL NAME">
+                </fieldset>
+
+                <fieldset>
+                    <label for="textarea">Bio:</label><br>
+                    <textarea class="bio" name="textarea" id="textarea" placeholder="Tell us about you security experiences, training qualities, unqiue abilities....""></textarea>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Gender</legend>
+                    <input type="checkbox" id="check1" name="checkboxes" checked>
+                    <label for="check1">Female</label><br>
+                    <input type="checkbox" id="check2" name="checkboxes">
+                    <label for="check2">Male</label><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Age</legend>
+                    <input type="radio" id="radio1" name="radios" checked>
+                    <label for="radio1">18-20</label><br>
+                    <input type="radio" id="radio2" name="radios">
+                    <label for="radio2">21+</label><br>
+                    <input type="radio" id="radio3" name="radios">
+                    <label for="radio3">35+</label>
+                </fieldset>
+
+                <fieldset>
+                    <label for="select-choice">Years of Security Training?</label>
+                    <select name="select-choice" id="select-choice">
+                        <option value="Choice 1">- - select one - -</option>
+                        <option value="Choice 2">1-2 Years</option>
+                        <option value="Choice 3">3-5 Years</option>
+                        <option value="Choice 4">5-8 Years</option>
+                        <option value="Choice 5">9+ Years</option>
+                    </select>
+                </fieldset>
+                <div id="buttons">
+                    <a href="Thank.html" class="btn green">Submit</a>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
