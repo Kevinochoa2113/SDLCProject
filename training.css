@@ -1,21 +1,10 @@
-body {
+html {
     background-color: black;
-}
-
-.square {
-    width: 1300px;
-    height: 600px;
-    position: fixed;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #210F7D;
 }
 
 h1 {
     color: white;
-    position: absolute;
-    font-size: 2rem;
+    text-align: center;
 }
 
 
@@ -56,4 +45,57 @@ a {
 a:hover {
     color: #E3BB2A;
     text-decoration: none;
+}
+
+
+/* Drop */
+
+.dropbtn {
+    color: white;
+    text-align: center;
+    padding: 80px;
+    text-decoration: none;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(160, 161, 55, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: flex;
+    text-align: left;
+    right: 0;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+a.drptxt {
+    text-align: left;
+}
+
+
+/* div */
+
+div.content {
+    background-color: #210F7D;
+    padding: 30px;
+    border: solid 2px #E3BB2A;
 }
