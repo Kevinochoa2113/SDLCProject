@@ -18,7 +18,7 @@ li {
 ul {
     list-style: none;
 }
-img {
+img.logo {
     max-width: 110px;
     max-height: 110px;
     padding-right: 30px;
@@ -32,11 +32,7 @@ a:hover {
     color: #E3BB2A;
     text-decoration: none;
 }
-.mySlide {
-    height: 100px;
-    width: 100px;
-    display: flex;
-}
+
 
 li.title {
     color: #E3BB2A;
@@ -45,7 +41,7 @@ li.title {
 }
 
 footer{
-    margin-top: 195px;
+    margin-top: 500px;
     background-color: #210F7D;
     color: white;
     border: 4px solid #E3BB2A;
@@ -94,4 +90,112 @@ footer h4 {
 
 p {
     margin-bottom: 15px;
+}
+
+.dropbtn {
+    color: white;
+    text-align: center;
+    padding: 80px;
+    text-decoration: none;
+    }
+    li.dropdown {
+    display: inline-block;
+    }
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(160, 161, 55, 0.2);
+    z-index: 1;
+    }
+    .dropdown-content a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: flex;
+    text-align: left;
+    right: 0;
+    }
+    .dropdown-content a:hover {background-color: #f1f1f1;}
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    a.drptxt{
+        text-align: left;
+    }
+    
+/* SLide show CSS */
+/*Created by CodePen Home
+CSS Slideshow
+Marifer Villarroel*/
+
+.slidershow {
+    width: 550px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bar {
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    border: 2px solid #EFEEF6;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.bar:hover {
+    background-color: #EFEEF6;
+}
+
+input[name="r"] {
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides {
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+.slide {
+    width: 20%;
+    transition: 0.6s;
+}
+
+.slide img {
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+}
+
+#r1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#r2:checked ~ .s1 {
+    margin-left: -20%;
+}
+
+#r3:checked ~ .s1 {
+    margin-left: -40%;
+}
+
+#r4:checked ~ .s1 {
+    margin-left: -60%;
 }
