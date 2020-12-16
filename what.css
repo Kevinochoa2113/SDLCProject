@@ -10,7 +10,9 @@ h4{
     color: white;
     text-align: center;
 }
-
+html{
+    cursor: crosshair;
+}
 
 /*Nav*/
 

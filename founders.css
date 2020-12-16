@@ -1,7 +1,9 @@
 html {
     background-color: black;
 }
-
+html{
+    cursor: crosshair;
+}
 
 /*Nav*/
 

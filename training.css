@@ -11,7 +11,9 @@ h4{
     text-align:center;
 }
 
-
+html{
+    cursor: crosshair;
+}
 /*Nav*/
 
 nav {
