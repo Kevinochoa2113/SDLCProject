@@ -6,6 +6,10 @@ h1 {
     color: white;
     text-align: center;
 }
+h4{
+    color: white;
+    text-align:center;
+}
 
 
 /*Nav*/
@@ -99,3 +103,15 @@ div.content {
     padding: 30px;
     border: solid 2px #E3BB2A;
 }
+
+p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+span{
+    color: #E3BB2A;
+}
+
+

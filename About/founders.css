@@ -57,6 +57,10 @@ h1 {
     text-align: center;
     color: white;
 }
+h4{
+    text-align: center;
+    color: white;
+}
 
 .women {
     width: 300px;
@@ -67,6 +71,7 @@ h1 {
 p {
     color: white;
     font-size: 30px;
+    text-align: center;
 }
 
 .womentext {

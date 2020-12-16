@@ -6,6 +6,10 @@ h1 {
     color: white;
     text-align: center;
 }
+h4{
+    color: white;
+    text-align: center;
+}
 
 
 /*Nav*/
@@ -53,6 +57,7 @@ a:hover {
 p {
     color: white;
     font-size: 30px;
+    text-align: center;
 }
 
 
@@ -111,3 +116,4 @@ div.content {
 span {
     color: #E3BB2A;
 }
+
